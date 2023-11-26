@@ -11,7 +11,7 @@ tokenizer = AutoTokenizer.from_pretrained('bert-base-uncased')
 model = BertModel.from_pretrained('bert-base-uncased')
 
 #Chave openai
-openai.api_key = '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' 
+openai.api_key = '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' 
 
 #Diretorio dos pdfs
 diretorio_pdfs = 'PDFs'
