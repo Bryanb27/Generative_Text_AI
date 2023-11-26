@@ -64,4 +64,4 @@ jobs:
         with:
           app-name: 'talk'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_9939762567B843E296F1F8968B4119D4 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_26CA74033E3145738C584371A014374A }}
