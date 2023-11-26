@@ -11,3 +11,6 @@ pip install -r requirements.txt
 e para a execução em ambiente local:
 python app.py
 e após isso entrar no link disponibilizado pelo cmd.
+
+Link para aplicação online:
+talk.azurewebsites.net
