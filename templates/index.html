@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Formulário de Pergunta</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    .custom-form {
+      max-width: 400px;
+      margin: auto;
+    }
+    .custom-textarea {
+      min-height: 100px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container mt-5">
+    <h1 class="text-center">No que posso ajudar?</h1>
+    <form action="/responder_pergunta" method="post" class="custom-form">
+      <div class="mb-3">
+        <label for="pergunta" class="form-label">Pergunta:</label>
+        <textarea class="form-control custom-textarea" id="pergunta" name="pergunta"></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary d-block mx-auto">Enviar</button>
+    </form>
+  </div>
+</body>
+</html>
