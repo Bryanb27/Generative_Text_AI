@@ -5,13 +5,14 @@ from PyPDF2 import PdfReader
 import os
 import torch
 from flask import Flask, render_template, request
+import keys
 
 #Carregar modelo Bert
 tokenizer = AutoTokenizer.from_pretrained('bert-base-uncased')
 model = BertModel.from_pretrained('bert-base-uncased')
 
 #Chave openai
-openai.api_key = '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' 
+openai.api_key =  keys.OpenAi_Key
 
 #Diretorio dos pdfs
 diretorio_pdfs = 'PDFs'
