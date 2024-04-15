@@ -9,7 +9,7 @@ Após isso, utilizar o comando:
 pip install -r requirements.txt
 
 e para a execução em ambiente local:
-python app.py
+py app.py
 e após isso entrar no link disponibilizado pelo cmd.
 
 Link para aplicação online:
